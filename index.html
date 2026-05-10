@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ネオ超人類</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap');
+    body { font-family: 'Inter', system-ui, sans-serif; }
+    .neon-cyan { text-shadow: 0 0 10px #22d3ee, 0 0 20px #22d3ee; }
+    .neon-purple { text-shadow: 0 0 10px #a855f7, 0 0 20px #a855f7; }
+    .card-hover:hover { transform: scale(1.05); box-shadow: 0 0 25px #22d3ee; }
+  </style>
+</head>
+<body class="bg-black text-white min-h-screen flex items-center justify-center p-6">
+  <div class="max-w-md w-full mx-auto">
+    <!-- ヘッダー -->
+    <div class="text-center mb-12">
+      <div class="inline-flex items-center justify-center w-24 h-24 bg-gradient-to-br from-cyan-400 to-purple-600 rounded-3xl mb-6 text-5xl font-black neon-cyan">🚀</div>
+      <h1 class="text-5xl font-black tracking-tighter neon-cyan">ネオ超人類</h1>
+      <p class="text-cyan-400 text-xl mt-2">人は未来にワクワクしなければならない</p>
+      <p class="mt-6 text-zinc-400 text-sm">一緒に未来にワクワクしよう！ 毎日更新中</p>
+    </div>
+
+    <!-- About / Vision -->
+    <div class="bg-zinc-900/50 backdrop-blur-xl border border-zinc-800 rounded-3xl p-8 mb-8">
+      <h2 class="text-purple-400 text-sm font-medium tracking-widest mb-3">WHO WE ARE</h2>
+      <p class="text-zinc-300 leading-relaxed">
+        AI・テクノロジー・人体・ビジネスで、<br>
+        <span class="text-white font-semibold">人類の限界をぶち破る情報</span>と<br>
+        未来を毎日発信。
+      </p>
+    </div>
+
+    <!-- 主要リンク -->
+    <div class="space-y-4">
+      <a href="https://www.tiktok.com/@neohumanfuture" target="_blank" class="block bg-zinc-900 hover:bg-zinc-800 border border-cyan-500/30 card-hover rounded-3xl p-6 flex items-center justify-between transition-all">
+        <div class="flex items-center gap-4">
+          <span class="text-3xl">🎥</span>
+          <div>
+            <div class="font-semibold">TikTok - 毎日未来技術</div>
+            <div class="text-zinc-400 text-sm">1.2Kフォロワー急成長中</div>
+          </div>
+        </div>
+        <span class="text-cyan-400">→</span>
+      </a>
+
+      <a href="https://www.instagram.com/neo_superhuman" target="_blank" class="block bg-zinc-900 hover:bg-zinc-800 border border-purple-500/30 card-hover rounded-3xl p-6 flex items-center justify-between transition-all">
+        <div class="flex items-center gap-4">
+          <span class="text-3xl">📸</span>
+          <div>
+            <div class="font-semibold">Instagram - 爆速まとめ</div>
+            <div class="text-zinc-400 text-sm">628人（後発で急成長）</div>
+          </div>
+        </div>
+        <span class="text-purple-400">→</span>
+      </a>
+    </div>
+
+    <!-- CTAボタン -->
+    <a href="#" class="mt-10 block bg-gradient-to-r from-cyan-400 to-purple-600 text-black font-bold text-center py-5 rounded-3xl text-xl tracking-widest hover:scale-105 transition-transform">
+      今すぐネオ超人類化に参加する
+    </a>
+
+    <!-- フッター -->
+    <div class="text-center text-zinc-500 text-xs mt-12">
+      NEO SUPERHUMAN © 2026<br>
+      未来は君が作る。
+    </div>
+  </div>
+</body>
+</html>
